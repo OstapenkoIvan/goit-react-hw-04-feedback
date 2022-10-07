@@ -19,7 +19,7 @@ function App() {
 
   const countTotalFeedback = () => {
     return Object.values(status).reduce((acc, value) => acc + value, 0);
-    // return status.good + status.neutral + status.bad;
+    // return status.good + status.neutral + status.bad  ;
   };
 
   const countPositiveFeedbackPercentage = () => {
